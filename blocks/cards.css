@@ -1,6 +1,7 @@
 .cards {
   padding-top: 20px;
   border-bottom: 1px rgb(33, 33, 33, 0.4) solid;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .cards__list {

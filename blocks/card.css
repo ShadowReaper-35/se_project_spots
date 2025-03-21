@@ -1,5 +1,6 @@
 .card {
   width: 413px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .card__image {
@@ -22,6 +23,8 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .card__like-btn {
