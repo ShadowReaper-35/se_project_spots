@@ -6,6 +6,8 @@
 }
 
 .profile__avatar {
+  width: 190px;
+  height: 190px;
   margin-right: 20px;
   border-radius: 10px;
 }
@@ -67,4 +69,40 @@
 .profile__plus-icon {
   width: 12px;
   height: 12px;
+}
+
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 288px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0 20px;
+  }
+
+  .profile__avatar {
+    margin: 0 0 12px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .profile__column {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile__name {
+    font-size: 20px;
+    margin: 0 0 6px;
+  }
+
+  .profile__edit-btn {
+    margin: 32px 0 20px;
+  }
+
+  .profile__add-btn {
+    margin: auto;
+    width: 100%;
+  }
 }
