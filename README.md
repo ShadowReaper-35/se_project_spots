@@ -28,3 +28,7 @@ This webpage is deployed to Github Pages
 - ![alt text](./images/demo/Screenshot%202025-03-21%20at%2002.12.44.png)
 
 - ![alt text](./images/demo/Screenshot%202025-03-21%20at%2002.53.38.png)
+
+\*\*Video
+
+- [Deployment Link](https://drive.google.com/file/d/1pSA_1jkw2XeEvU_LMTuyPzcD6FXUVqyf/view?usp=sharing)
