@@ -60,13 +60,17 @@
 .modal__form {
   display: flex;
   flex-direction: column;
-  /* max-width: 630px; */
   margin: 0;
   padding: 0;
 }
 
 .modal__label {
   margin: 0 0 32px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  color: rgba(33, 33, 33, 0.7);
 }
 
 .modal__input {
@@ -82,7 +86,7 @@
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0%;
 }
 
@@ -112,4 +116,40 @@ modal::placeholder {
   color: rgba(252, 245, 229, 1);
   margin-top: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 400px) {
+  .modal__container {
+    margin: 10px;
+    padding: 12px;
+  }
+
+  .modal__close-btn {
+    top: 12px;
+    right: 12px;
+  }
+
+  .modal__title {
+    margin: 0 0 24px;
+    font-size: 20px;
+  }
+
+  .modal__label {
+    margin: 0 0 24px;
+  }
+
+  .modal__input {
+    font-size: 16px;
+    max-width: 254px;
+    width: 100%;
+  }
+
+  .modal::placeholder {
+    font-size: 16px;
+  }
+
+  .modal__submit-btn {
+    width: 100%;
+    margin: auto;
+  }
 }
